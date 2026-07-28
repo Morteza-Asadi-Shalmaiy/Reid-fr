@@ -29,12 +29,12 @@ This project implements a DCGAN — a generator/discriminator pair trained adver
 
 **Sample outputs (epoch `<N>`):**
 
-![Final samples](assets/final_samples.png)
+![Final samples](https://raw.githubusercontent.com/Morteza-Asadi-Shalmaiy/gan-cats-faces/refs/heads/main/assets/epoch30.png)
 
 **Training loss:**
 
-![Loss curve](assets/loss_curve.png)
-
+![Loss curve](https://raw.githubusercontent.com/Morteza-Asadi-Shalmaiy/gan-cats-faces/refs/heads/main/assets/plot0-20.png)
+![Loss curve](https://raw.githubusercontent.com/Morteza-Asadi-Shalmaiy/gan-cats-faces/refs/heads/main/assets/plot20-39.png)
 Trained for `<N>` epochs on a `<GPU type, e.g. Colab T4>` GPU, `<total training time>`.
 
 ## Architecture
