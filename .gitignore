@@ -1,0 +1,17 @@
+# Training outputs (regenerate by running the notebook; keep only curated
+# highlights in assets/ under version control)
+checkpoints/
+samples/
+*.pth
+generated_cats.png
+loss_curve.png
+
+# Jupyter / Python
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store
