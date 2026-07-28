@@ -268,6 +268,15 @@ Training Epoch [20] finished.
 
 ---
 
+![Results grid](https://raw.githubusercontent.com/Morteza-Asadi-Shalmaiy/gan-cats-faces/refs/heads/main/assets/plot0-20.png)
+
+---
+
+
+
+---
+
+
 
 Epoch [21/40] Batch [0/493] d_loss: 0.1977 g_loss: 6.6652
 Epoch [21/40] Batch [100/493] d_loss: 0.0915 g_loss: 4.1357
@@ -399,3 +408,7 @@ Epoches 31 - 39 are unfortunatly inconclusive
 Saved checkpoint: checkpoints/checkpoint_epoch_39.pth
 Saved final generator.pth / discriminator.pth
 Saved loss curve to loss_curve.png
+
+---
+
+![Results grid](https://raw.githubusercontent.com/Morteza-Asadi-Shalmaiy/gan-cats-faces/refs/heads/main/assets/plot20-39.png)
