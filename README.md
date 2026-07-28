@@ -47,20 +47,6 @@ Trained for `<N>` epochs on a `<GPU type, e.g. Colab T4>` GPU, `<total training 
 
 Standard DCGAN weight initialization (`N(0, 0.02)`) is applied to all conv and batchnorm layers. Optimized with Adam (`lr=0.0002`, `beta1=0.5`) for both networks, trained with binary cross-entropy loss.
 
-## Repo structure
-
-```
-gan-cats-faces/
-├── gan_cats.ipynb          # Main notebook: data loading, model, training, resume, inference
-├── make_gif.py             # Stitches saved epoch samples into assets/training_progress.gif
-├── requirements.txt
-└── assets/                 # Curated results shown in this README
-    ├── training_progress.gif
-    ├── final_samples.png
-    └── loss_curve.png
-```
-
-`checkpoints/`, `samples/`, and raw `.pth` weight files are produced when you run the notebook but are git-ignored — only the curated highlights in `assets/` are committed.
 
 ## Running it
 
