@@ -247,65 +247,7 @@ Epoch [31/40] Batch [300/493] d_loss: 0.0265 g_loss: 6.3782
 Epoch [31/40] Batch [400/493] d_loss: 0.0118 g_loss: 7.5455
 Training Epoch [31] finished.
 
-Saved checkpoint: checkpoints/checkpoint_epoch_31.pth
-Epoch [32/40] Batch [0/493] d_loss: 0.0246 g_loss: 9.1332
-Epoch [32/40] Batch [100/493] d_loss: 0.0001 g_loss: 50.3889
-Epoch [32/40] Batch [200/493] d_loss: 0.0001 g_loss: 49.7854
-Epoch [32/40] Batch [300/493] d_loss: 0.0001 g_loss: 49.3740
-Epoch [32/40] Batch [400/493] d_loss: 0.0000 g_loss: 49.2958
-Training Epoch [32] finished.
-
-Epoch [33/40] Batch [0/493] d_loss: 0.0000 g_loss: 49.2331
-Epoch [33/40] Batch [100/493] d_loss: 0.0000 g_loss: 49.0969
-Epoch [33/40] Batch [200/493] d_loss: 0.0000 g_loss: 49.0859
-Epoch [33/40] Batch [300/493] d_loss: 0.0000 g_loss: 48.8839
-Epoch [33/40] Batch [400/493] d_loss: 0.0001 g_loss: 48.9740
-Training Epoch [33] finished.
-
-Saved checkpoint: checkpoints/checkpoint_epoch_33.pth
-Epoch [34/40] Batch [0/493] d_loss: 0.0000 g_loss: 48.6139
-Epoch [34/40] Batch [100/493] d_loss: 0.0000 g_loss: 48.6042
-Epoch [34/40] Batch [200/493] d_loss: 0.0000 g_loss: 48.3906
-Epoch [34/40] Batch [300/493] d_loss: 0.0000 g_loss: 48.4509
-Epoch [34/40] Batch [400/493] d_loss: 0.0001 g_loss: 48.1359
-Training Epoch [34] finished.
-
-Epoch [35/40] Batch [0/493] d_loss: 0.0000 g_loss: 48.5005
-Epoch [35/40] Batch [100/493] d_loss: 0.0000 g_loss: 48.0973
-Epoch [35/40] Batch [200/493] d_loss: 0.0000 g_loss: 48.2387
-Epoch [35/40] Batch [300/493] d_loss: 0.0000 g_loss: 48.1570
-Epoch [35/40] Batch [400/493] d_loss: 0.0000 g_loss: 47.9961
-Training Epoch [35] finished.
-
-Saved checkpoint: checkpoints/checkpoint_epoch_35.pth
-Epoch [36/40] Batch [0/493] d_loss: 0.0000 g_loss: 48.0509
-Epoch [36/40] Batch [100/493] d_loss: 0.0000 g_loss: 47.9895
-Epoch [36/40] Batch [200/493] d_loss: 0.0000 g_loss: 47.8742
-Epoch [36/40] Batch [300/493] d_loss: 0.0000 g_loss: 47.9294
-Epoch [36/40] Batch [400/493] d_loss: 0.0000 g_loss: 48.1489
-Training Epoch [36] finished.
-
-Epoch [37/40] Batch [0/493] d_loss: 0.0000 g_loss: 47.8095
-Epoch [37/40] Batch [100/493] d_loss: 0.0000 g_loss: 47.6227
-Epoch [37/40] Batch [200/493] d_loss: 0.0000 g_loss: 47.4455
-Epoch [37/40] Batch [300/493] d_loss: 0.0000 g_loss: 47.5255
-Epoch [37/40] Batch [400/493] d_loss: 0.0000 g_loss: 47.6849
-Training Epoch [37] finished.
-
-Saved checkpoint: checkpoints/checkpoint_epoch_37.pth
-Epoch [38/40] Batch [0/493] d_loss: 0.0000 g_loss: 47.6705
-Epoch [38/40] Batch [100/493] d_loss: 0.0000 g_loss: 47.5444
-Epoch [38/40] Batch [200/493] d_loss: 0.0000 g_loss: 47.4729
-Epoch [38/40] Batch [300/493] d_loss: 0.0000 g_loss: 47.4318
-Epoch [38/40] Batch [400/493] d_loss: 0.0000 g_loss: 47.4090
-Training Epoch [38] finished.
-
-Epoch [39/40] Batch [0/493] d_loss: 0.0000 g_loss: 47.4914
-Epoch [39/40] Batch [100/493] d_loss: 0.0000 g_loss: 47.2656
-Epoch [39/40] Batch [200/493] d_loss: 0.0000 g_loss: 47.3107
-Epoch [39/40] Batch [300/493] d_loss: 0.0000 g_loss: 47.3208
-Epoch [39/40] Batch [400/493] d_loss: 0.0000 g_loss: 47.1765
-Training Epoch [39] finished.
+Epoches 31 - 39 are unfortunatly inconclusive 
 
 Saved checkpoint: checkpoints/checkpoint_epoch_39.pth
 Saved final generator.pth / discriminator.pth
