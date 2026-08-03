@@ -37,7 +37,7 @@ Loss history is preserved across the checkpoint/resume workflow — the two plot
 are continuous (no reset at the epoch-20 resume boundary), confirming optimizer and loss
 state restore correctly.
 
-![Loss curve epochs 0-20](assets/plot0-20.png)
+![Loss curve epochs 0-20](assets/plot0-19.png)
 ![Loss curve epochs 20-39](assets/plot20-39.png)
 
 Around epoch ~31, the discriminator overpowered the generator (D loss → ~0, G loss
