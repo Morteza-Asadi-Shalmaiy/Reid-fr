@@ -27,18 +27,27 @@ This project implements a DCGAN — a generator/discriminator pair trained adver
 
 ## Results
 
-<!-- TODO: after training, drop your best sample grid + loss curve into assets/ and update these -->
+**Sample outputs (epoch 29 — selected as the best pre-collapse checkpoint, see loss analysis below):**
 
-**Sample outputs (epoch `30`):**
-
-![Final samples](https://raw.githubusercontent.com/Morteza-Asadi-Shalmaiy/gan-cats-faces/refs/heads/main/assets/epoch30.png)
+![Epoch 29 samples](assets/epoch29.png)
 
 **Training loss:**
 
-![Loss curve](https://raw.githubusercontent.com/Morteza-Asadi-Shalmaiy/gan-cats-faces/refs/heads/main/assets/plot0-20.png)
-![Loss curve](https://raw.githubusercontent.com/Morteza-Asadi-Shalmaiy/gan-cats-faces/refs/heads/main/assets/plot20-39.png)
-Trained for `<N>` epochs on a `<GPU type, e.g. Colab T4>` GPU, `<total training time>`.
+Loss history is preserved across the checkpoint/resume workflow — the two plots below
+are continuous (no reset at the epoch-20 resume boundary), confirming optimizer and loss
+state restore correctly.
 
+![Loss curve epochs 0-20](assets/plot0-20.png)
+![Loss curve epochs 20-39](assets/plot20-39.png)
+
+Around epoch ~31, the discriminator overpowered the generator (D loss → ~0, G loss
+spikes and plateaus ~47–48) — a common GAN failure mode where D becomes too confident
+and G's gradient saturates. Training continued to epoch 39, but the best visual results
+came from epoch 29, before the collapse; that's the checkpoint used for the sample grid
+above.
+
+Trained for 39 epochs total on a `<GPU type, e.g. Colab T4>` GPU, `<total training time>`,
+split across two sessions using the checkpoint/resume workflow.
 ## Architecture
 
 | | Generator | Discriminator |
