@@ -29,7 +29,7 @@ This project implements a DCGAN — a generator/discriminator pair trained adver
 
 <!-- TODO: after training, drop your best sample grid + loss curve into assets/ and update these -->
 
-**Sample outputs (epoch `<N>`):**
+**Sample outputs (epoch `30`):**
 
 ![Final samples](https://raw.githubusercontent.com/Morteza-Asadi-Shalmaiy/gan-cats-faces/refs/heads/main/assets/epoch30.png)
 
