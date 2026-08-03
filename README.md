@@ -13,7 +13,7 @@ DCGAN trained from scratch on the [Cats Faces 64×64](https://www.kaggle.com/dat
 dataset, generating novel cat face images from random noise. Training can be paused and
 resumed across multiple sessions using full checkpointing (model + optimizer state + loss
 history), and every epoch's sample grid is drawn from the same fixed latent vector so
-progress is directly comparable across the run — the backbone of the animated GIF below.
+progress is directly comparable across the run.
 
 ## Overview
 
