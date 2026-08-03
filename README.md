@@ -46,7 +46,7 @@ and G's gradient saturates. Training continued to epoch 39, but the best visual 
 came from epoch 29, before the collapse; that's the checkpoint used for the sample grid
 above.
 
-Trained for 39 epochs total on a `<GPU type, e.g. Colab T4>` GPU, `<total training time>`,
+Trained for 39 epochs total on a `Colab T4` GPU, `40`,
 split across two sessions using the checkpoint/resume workflow.
 ## Architecture
 
