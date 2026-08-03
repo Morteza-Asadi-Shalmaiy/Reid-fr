@@ -62,7 +62,7 @@ Standard DCGAN weight initialization (`N(0, 0.02)`) is applied to all conv and b
 ## Running it
 
 1. Open `gan_cats.ipynb` in Google Colab (badge above) or locally with a GPU.
-2. Run all cells top to bottom. This downloads the dataset via `kagglehub`, trains the DCGAN, and saves sample grids to `samples/` and checkpoints to `checkpoints/` every 2 epochs.
+2. Run all cells top to bottom. This downloads the dataset via `kagglehub`, trains the DCGAN, and saves sample grids to `samples/` and checkpoints to `checkpoints/` every epochs.
 3. **To resume training later** (e.g. you trained 10 epochs, now want 20 total): re-run the "Resume Training" cell with `num_epochs` set to your new total and `resume_training = True`. See the notebook's Resume Training section for details.
 4. **To generate images from a saved checkpoint** without retraining, use the `generate_images()` cell near the end of the notebook.
 
