@@ -74,5 +74,4 @@ Standard DCGAN weight initialization (`N(0, 0.02)`) is applied to all conv and b
 
 ## License
 
-<!-- TODO: pick a license, e.g. MIT -->
 MIT
