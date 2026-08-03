@@ -1,17 +1,19 @@
-# GAN Cat Faces
+# GAN Cat Faces 🐱
 
-A DCGAN (Deep Convolutional GAN) trained from scratch on the [Cats Faces 64x64 for Generative Models](https://www.kaggle.com/datasets/spandan2/cats-faces-64x64-for-generative-models) dataset, generating novel 64×64 cat face images from random noise.
+![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-DCGAN-EE4C2C?logo=pytorch&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
+![Colab](https://img.shields.io/badge/Run%20in-Colab-F9AB00?logo=googlecolab&logoColor=white)
 
-<!-- TODO: replace with your actual GIF once training is done -->
-![Training progress](assets/training_progress.gif)
+> **Results at a glance:** Trained **<N> epochs** on a Colab **<GPU type>** GPU · DCGAN
+> (100-dim latent) · Checkpoint + resume support across sessions · Fixed latent vector
+> tracked for a consistent epoch-by-epoch progress GIF
 
-<!--
-Badges — fill in <YOUR_USERNAME>/<YOUR_REPO> once this is pushed to GitHub,
-then this becomes a one-click "run this in Colab" button.
--->
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/<YOUR_USERNAME>/<YOUR_REPO>/blob/main/gan_cats.ipynb)
-![Python](https://img.shields.io/badge/python-3.10%2B-blue)
-![PyTorch](https://img.shields.io/badge/PyTorch-DCGAN-orange)
+DCGAN trained from scratch on the [Cats Faces 64×64](https://www.kaggle.com/datasets/spandan2/cats-faces-64x64-for-generative-models)
+dataset, generating novel cat face images from random noise. Training can be paused and
+resumed across multiple sessions using full checkpointing (model + optimizer state + loss
+history), and every epoch's sample grid is drawn from the same fixed latent vector so
+progress is directly comparable across the run — the backbone of the animated GIF below.
 
 ## Overview
 
